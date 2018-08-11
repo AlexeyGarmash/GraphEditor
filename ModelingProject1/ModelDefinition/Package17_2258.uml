@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="4d951a1f-090e-4e4d-be7c-4796a435b459"
+  name="Zoombox"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="afc04c04-b59e-46dd-a153-7bd5b88f1c12"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DXceed.Wpf.Toolkit.Zoombox"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="742240a4-5185-4252-8362-167befc9d214"
+        name="Zoombox"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="317ec299-abc5-4587-9141-a7400eead310"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FАлекс%2FDesktop%2FGraphMaker(test)%2FGraphMaker(test)%2Fbin%2FDebug%2FXceed.Wpf.Toolkit.dll&quot; Namespace%3DXceed.Wpf.Toolkit.Zoombox Type%3DZoombox"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d1cefe0d-9d9d-40e9-af44-58618f52745a"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7311c378-303f-46d2-8507-ff84cacfbaa9">
+                <propertyInstance
+                  Id="fb3f35f6-8312-40b2-b154-d3a3a33b5bdf"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5682c24b-6e58-47a7-b9a6-ca45431bd2ba">
+                <propertyInstance
+                  Id="c7d49d3e-6127-442f-8fba-5feb1d6dffb7"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="816d7c01-864c-4d12-9e71-114af3ddbee2">
+                <propertyInstance
+                  Id="0c919837-7e31-4d07-a920-c40a8fe6ff03"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="080a8452-5d6f-4e04-a5a9-fa7bf0d4aa24">
+                <propertyInstance
+                  Id="9f27812e-5f41-4c4e-ab22-cc3252a7cc0f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="064696f7-2f94-46a2-94fc-60341988d4f3">
+                <propertyInstance
+                  Id="e57d6658-dc11-4cd1-bc8b-4900446a718d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

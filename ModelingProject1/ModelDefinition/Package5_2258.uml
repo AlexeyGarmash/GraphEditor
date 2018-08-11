@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="0b19e567-439e-4aa6-802c-53301eab0d3d"
+  name="Media2D"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="581b1b4e-8130-4752-b065-747bb93bb48f"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DPetzold.Media2D"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="8231188b-b4dd-4d13-98fe-93d96b661e81"
+        name="ArrowLine"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="0baa8383-db9c-48b1-a4ae-e53ec47cd985"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FАлекс%2FDesktop%2FGraphMaker(test)%2FGraphMaker(test)%2Fbin%2FDebug%2FGraphMaker(test).exe&quot; Namespace%3DPetzold.Media2D Type%3DArrowLine"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="065eae34-7a5a-46c8-9dbd-edeafd1ce8bb"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f392b626-62a3-4fd1-bf1c-bda7f4e71a08">
+                <propertyInstance
+                  Id="bb2c6bff-7442-46ae-abf1-52fdf4c233df"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9591d64d-a3e0-4408-964e-9ac6014821c1">
+                <propertyInstance
+                  Id="e333ff41-def4-4db1-bbc0-1a9c27f3e9d3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b2b4685f-a717-4e67-8698-4e89e032ae16">
+                <propertyInstance
+                  Id="d55d566c-4a10-4839-b008-aa36c2d5ee1b"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="458ab432-30f1-4c38-a92f-806fe9e874c8">
+                <propertyInstance
+                  Id="42820fa5-389c-4144-8a92-2df0468874ed"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="30d9ac5a-bcda-4b15-8ed0-556d31886138">
+                <propertyInstance
+                  Id="beea01db-8e66-4a93-add2-b1ab076d0eb7"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

@@ -1,0 +1,12 @@
+﻿<Window x:Name="HelpWindow1" x:Class="GraphMaker_test_.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="HelpWindow" Height="481" Width="472" WindowStartupLocation="CenterScreen" Icon="Icons/Blackvariant-Button-Ui-Requests-2-BambooDock.ico" ResizeMode="CanMinimize">
+    <Grid>
+        <Canvas x:Name="HelpC" HorizontalAlignment="Left" Height="451" VerticalAlignment="Top" Width="464">
+            <Canvas.Background>
+                <ImageBrush ImageSource="Icons/Untidfefeftled.png"/>
+            </Canvas.Background>
+        </Canvas>
+    </Grid>
+</Window>

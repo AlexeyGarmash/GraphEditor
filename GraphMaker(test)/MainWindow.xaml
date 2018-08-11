@@ -1,0 +1,334 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit" xmlns:Media2D="clr-namespace:Petzold.Media2D" x:Name="WND" x:Class="GraphMaker_test_.MainWindow"
+        Title="Graph Maker" Height="800" Width="1348" BorderBrush="{DynamicResource {x:Static SystemColors.DesktopBrushKey}}" Icon="Icons/Blackvariant-Button-Ui-Requests-2-BambooDock.ico" Closing="WND_Closing" Loaded="WND_Loaded" WindowStartupLocation="CenterScreen">
+
+    <Grid>
+
+
+
+        <xctk:Zoombox x:Name="Zoom" Foreground="{x:Null}" Margin="0,88,0,85" MouseWheel="Zoom_MouseWheel" MouseLeftButtonUp="Zoom_MouseLeftButtonUp" MouseDoubleClick="Zoom_MouseDoubleClick">
+            <Canvas x:Name="WorkSpace" Height="597" Width="1340" VerticalAlignment="Top" MouseLeftButtonUp="WorkSpace_MouseLeftButtonUp"   />
+        </xctk:Zoombox>
+        <Canvas x:Name="GraphWork" Height="86"  VerticalAlignment="Bottom" MouseLeftButtonUp="ProgramSpace_MouseLeftButtonUp">
+            <Canvas.Background>
+                <ImageBrush ImageSource="Icons/IMG_138460.png"/>
+            </Canvas.Background>
+
+
+            <Button x:Name="AddVertex" Content="Vertex" Canvas.Left="31" Canvas.Top="16" Width="60" Height="60" Template="{DynamicResource BackgroundButton}" FontWeight="Bold" FontStyle="Italic"  HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="13" Click="AddVertex_Click" ToolTip="Add Vertex" Cursor="Hand">
+                <Button.Resources>
+                    <ControlTemplate x:Key="BackgroundButton" TargetType="{x:Type Button}">
+                        <Border x:Name="border" BorderThickness="0" BorderBrush="White" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="border">
+                                    <Setter.Value>
+                                        <ImageBrush ImageSource="Icons/Plus2_.png" Stretch="Fill" />
+
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Button.Resources>
+                <Button.Background>
+                    <ImageBrush ImageSource="Icons/Plus2.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="AddEdge" Content="Edge" Canvas.Left="188" Canvas.Top="16" Width="60" Height="60" Template="{DynamicResource BackgroundButton}" FontWeight="Bold" FontSize="13" FontStyle="Italic" HorizontalAlignment="Left" VerticalAlignment="Top" Click="AddEdge_Click" ToolTip="Add Edge" Cursor="Hand">
+                <Button.Resources>
+                    <ControlTemplate x:Key="BackgroundButton" TargetType="{x:Type Button}">
+                        <Border x:Name="border" BorderThickness="0" BorderBrush="White" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="border">
+                                    <Setter.Value>
+                                        <ImageBrush ImageSource="Icons/Plus2_.png" Stretch="Fill" />
+
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Button.Resources>
+                <Button.Background>
+                    <ImageBrush ImageSource="Icons/Plus2.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="DeleteVertex" Content="" Canvas.Left="336" Canvas.Top="16" Width="60" Height="60" Template="{DynamicResource BackgroundButton}" FontWeight="Bold" FontSize="16" FontStyle="Italic"  HorizontalAlignment="Left" VerticalAlignment="Top" Click="DeleteVertex_Click" ToolTip="Delete Vertex" Cursor="Hand" >
+                <Button.Resources>
+                    <ControlTemplate x:Key="BackgroundButton" TargetType="{x:Type Button}">
+                        <Border x:Name="border" BorderThickness="0" BorderBrush="White" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="border">
+                                    <Setter.Value>
+                                        <ImageBrush ImageSource="Icons/Trash_.png" Stretch="Fill" />
+
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Button.Resources>
+                <Button.Background>
+                    <ImageBrush ImageSource="Icons/Trash.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="DeleteEdge" Content="" Canvas.Left="507" Canvas.Top="16" Width="60" Height="60" Template="{DynamicResource BackgroundButton}" FontWeight="Bold" FontSize="16" FontStyle="Italic" Click="DeleteEdge_Click" ToolTip="Delete Edge" Cursor="Hand" >
+                <Button.Resources>
+                    <ControlTemplate x:Key="BackgroundButton" TargetType="{x:Type Button}">
+                        <Border x:Name="border" BorderThickness="0" BorderBrush="White" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="border">
+                                    <Setter.Value>
+                                        <ImageBrush ImageSource="Icons/TrashEdge_.png" Stretch="Fill" />
+
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Button.Resources>
+                <Button.Background>
+                    <ImageBrush ImageSource="Icons/TrashEdge.png"/>
+                </Button.Background>
+            </Button>
+            <Border x:Name="border" BorderThickness="0" >
+                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Border>
+            <Button x:Name="DFS" Content="A star" Canvas.Left="840" Canvas.Top="31" Width="162" Height="45" Template="{DynamicResource BackgroundButton}" FontSize="30" FontStyle="Italic" VerticalAlignment="Top" Click="ASTAR_Click" Background="{x:Null}" FontWeight="Bold" MouseEnter="ASTAR_MouseEnter" MouseLeave="AddVertex_MouseLeave" ToolTip="A star" Cursor="Hand">
+                <Button.Resources>
+                    <ControlTemplate x:Key="BackgroundButton" TargetType="{x:Type Button}">
+                        <Border x:Name="border" BorderThickness="0" BorderBrush="White" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="border">
+                                    <Setter.Value>
+                                        <ImageBrush  Stretch="Fill" />
+
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Button.Resources>
+            </Button>
+            <Button x:Name="Dijkstra" Content="Dijkstra" Canvas.Left="995" Canvas.Top="31" Width="159" Height="45" Template="{DynamicResource BackgroundButton}" FontSize="30" FontStyle="Italic" VerticalAlignment="Top" Click="Dijkstra_Click" Background="{x:Null}" FontWeight="Bold" MouseEnter="ASTAR_MouseEnter" MouseLeave="AddVertex_MouseLeave" ToolTip="Dijkstra algorythm" Margin="0,0,20,0" Cursor="Hand" >
+                <Button.Resources>
+                    <ControlTemplate x:Key="BackgroundButton" TargetType="{x:Type Button}">
+                        <Border x:Name="border" BorderThickness="0" BorderBrush="White" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="border">
+                                    <Setter.Value>
+                                        <ImageBrush  Stretch="Fill" />
+
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Button.Resources>
+            </Button>
+            <Button x:Name="Prima" Content="Prim's" Canvas.Left="1170" Canvas.Top="31" Width="92" Height="45" Template="{DynamicResource BackgroundButton}" FontSize="30" FontStyle="Italic" VerticalAlignment="Top" Click="Prima_Click" Background="{x:Null}" FontWeight="Bold" MouseEnter="ASTAR_MouseEnter" MouseLeave="AddVertex_MouseLeave" ToolTip="Prim's algorithm" Margin="0" Cursor="Hand">
+                <Button.Resources>
+                    <ControlTemplate x:Key="BackgroundButton" TargetType="{x:Type Button}">
+                        <Border x:Name="border" BorderThickness="0" BorderBrush="White" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="border">
+                                    <Setter.Value>
+                                        <ImageBrush Stretch="Fill" />
+
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Button.Resources>
+            </Button>
+            <Label x:Name="Algorithms" Content="Algorithms" Canvas.Left="1007" FontSize="25" FontFamily="Aharoni" FontWeight="Bold" Margin="0,0,20,0"/>
+        </Canvas>
+        <Canvas x:Name="ProgramSpace" Height="88" VerticalAlignment="Top" MouseLeftButtonUp="ProgramSpace_MouseLeftButtonUp" >
+            <Canvas.Background>
+                <ImageBrush ImageSource="Icons/IMG_138460.png"/>
+            </Canvas.Background>
+            <Button x:Name="SaveButton" Canvas.Left="135" Canvas.Top="26" Width="50" Height="50" Template="{DynamicResource BackgroundButton}" FontWeight="Bold" FontSize="16" FontStyle="Italic" Click="SaveButton_Click" ToolTip="Save graph (Ctrl+S)" Cursor="Hand">
+                <Button.Resources>
+                    <ControlTemplate x:Key="BackgroundButton" TargetType="{x:Type Button}">
+                        <Border x:Name="border" BorderThickness="0" BorderBrush="White" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="border">
+                                    <Setter.Value>
+                                        <ImageBrush ImageSource="Icons/Save_.png" Stretch="Fill" />
+
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Button.Resources>
+                <Button.Background>
+                    <ImageBrush ImageSource="Icons/Save.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Undo" Canvas.Left="465" Canvas.Top="18" Width="60" Height="60" Template="{DynamicResource BackgroundButton}" FontWeight="Bold" FontSize="16" FontStyle="Italic" Click="Undo_Click" ToolTip="Undo (Ctrl+Z)" Cursor="Hand">
+                <Button.Resources>
+                    <ControlTemplate x:Key="BackgroundButton" TargetType="{x:Type Button}">
+                        <Border x:Name="border" BorderThickness="0" BorderBrush="White" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="border">
+                                    <Setter.Value>
+                                        <ImageBrush ImageSource="Icons/undo_.png" Stretch="Fill" />
+
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Button.Resources>
+                <Button.Background>
+                    <ImageBrush ImageSource="Icons/undo.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Redo" Canvas.Left="550" Canvas.Top="18" Width="60" Height="60" Template="{DynamicResource BackgroundButton}" FontWeight="Bold" FontSize="16" FontStyle="Italic" Click="Redo_Click" ToolTip="Redo (Ctrl+Y)" Cursor="Hand" >
+                <Button.Resources>
+                    <ControlTemplate x:Key="BackgroundButton" TargetType="{x:Type Button}">
+                        <Border x:Name="border" BorderThickness="0" BorderBrush="White" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="border">
+                                    <Setter.Value>
+                                        <ImageBrush ImageSource="Icons/redo_.png" Stretch="Fill" />
+
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Button.Resources>
+                <Button.Background>
+                    <ImageBrush ImageSource="Icons/redo.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="MakeOriented" Content="Make oriented" Canvas.Left="721" Canvas.Top="28" Width="251" Height="42" Click="MakeOriented_Click" Background="{x:Null}" FontSize="24" FontWeight="Bold" ToolTip="Orientation" Cursor="Hand"/>
+            <Button x:Name="NewGraph" Canvas.Left="27" Canvas.Top="26" Width="50" Height="50" Template="{DynamicResource BackgroundButton}" FontWeight="Bold" FontSize="16" FontStyle="Italic" Click="NewGraph_Click" ToolTip="New graph (Ctrl+N)" Cursor="Hand">
+                <Button.Resources>
+                    <ControlTemplate x:Key="BackgroundButton" TargetType="{x:Type Button}">
+                        <Border x:Name="border" BorderThickness="0" BorderBrush="White" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="border">
+                                    <Setter.Value>
+                                        <ImageBrush ImageSource="Icons/new_file_.png" Stretch="Fill" />
+
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Button.Resources>
+                <Button.Background>
+                    <ImageBrush ImageSource="Icons/new_file.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="SaveAs" Canvas.Left="240" Canvas.Top="28" Width="63" Height="50" Template="{DynamicResource BackgroundButton}" FontWeight="Bold" FontSize="16" FontStyle="Italic" ToolTip="SaveAs (Ctrl+D)" Click="SaveAs_Click" Cursor="Hand">
+                <Button.Resources>
+                    <ControlTemplate x:Key="BackgroundButton" TargetType="{x:Type Button}">
+                        <Border x:Name="border" BorderThickness="0" BorderBrush="White" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="border">
+                                    <Setter.Value>
+                                        <ImageBrush ImageSource="Icons/SaveAs_.png" Stretch="Fill" />
+
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Button.Resources>
+                <Button.Background>
+                    <ImageBrush ImageSource="Icons/SaveAs.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="OpenFile" Canvas.Left="358" Canvas.Top="26" Width="52" Height="52" Template="{DynamicResource BackgroundButton}" FontWeight="Bold" FontSize="16" FontStyle="Italic" Click="OpenFile_Click" ToolTip="Open graph (Ctrl+O)" Cursor="Hand">
+                <Button.Resources>
+                    <ControlTemplate x:Key="BackgroundButton" TargetType="{x:Type Button}">
+                        <Border x:Name="border" BorderThickness="0" BorderBrush="White" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="border">
+                                    <Setter.Value>
+                                        <ImageBrush ImageSource="Icons/Open-icon_.png" Stretch="Fill" />
+
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Button.Resources>
+                <Button.Background>
+                    <ImageBrush ImageSource="Icons/Open-icon.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Help" Canvas.Left="1217" Canvas.Top="16" Width="62" Height="62" Template="{DynamicResource BackgroundButton}" FontWeight="Bold" FontSize="16" FontStyle="Italic" ToolTip="Help (F4)" Cursor="Help" Click="Help_Click">
+                <Button.Resources>
+                    <ControlTemplate x:Key="BackgroundButton" TargetType="{x:Type Button}">
+                        <Border x:Name="border" BorderThickness="0" BorderBrush="White" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" TargetName="border">
+                                    <Setter.Value>
+                                        <ImageBrush ImageSource="Icons/Help_.png" Stretch="Fill" />
+
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Button.Resources>
+                <Button.Background>
+                    <ImageBrush ImageSource="Icons/Help.png"/>
+                </Button.Background>
+            </Button>
+            <TextBox x:Name="InfoCurr" Height="36" Canvas.Left="880" TextWrapping="Wrap" Canvas.Top="88" Width="460" IsEnabled="False" FontSize="16"/>
+
+        </Canvas>
+
+    </Grid>
+</Window>

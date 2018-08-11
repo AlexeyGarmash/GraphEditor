@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="e4c6e370-c2d9-4ba9-a590-5094f47acd21"
+  name="QuickGraph"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="cc9b6ac2-e844-4056-a192-052ecf87bd7f"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DQuickGraph"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="fef99106-a873-479a-bf51-0ed861f66145"
+        name="UndirectedEdge&lt;Vertex‎&gt;"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="fa98b04d-40d5-4889-b0e9-82f449e264fd"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="15ad8def-82f2-4ce8-897c-e1dbc05777a7">
+                <propertyInstance
+                  Id="a9683321-daeb-440f-81ec-787ee869355c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cb622310-6b2b-4f3e-affc-79b1d46d43d7">
+                <propertyInstance
+                  Id="6d0f6681-b26f-459e-9e2e-2517fe30100b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9a5ba142-5242-4d1f-8400-d8cdca400d70">
+                <propertyInstance
+                  Id="dca55502-d02b-4e5b-a301-812aaf6506e1"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e130ae02-87cc-4a3d-83d1-26601eabfb44">
+                <propertyInstance
+                  Id="0b2940ca-e10c-4a79-9754-60363b34eda6"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8ad042c5-c3c7-4e46-855b-43cd056c02a3">
+                <propertyInstance
+                  Id="003cfdeb-fbe6-4418-8258-ceb3b3035cfc"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <signatures>
+          <templateBinding
+            Id="e8e23ce9-9fba-4e0d-8af3-4f1c38bce31a">
+            <redefinableTemplateSignatureMoniker
+              Id="cf301f74-9d25-40f7-9596-d1260e67d1dd"
+              LastKnownLocation="Package11_2258.uml" />
+            <relationshipOwnedElementsInternal>
+              <templateBindingHasTemplateParameterSubstitution>
+                <templateParameterSubstitution
+                  Id="71228b0d-fde8-4dfc-a0fe-2c36544697ba">
+                  <actuals>
+                    <classMoniker
+                      Id="4ab785ea-b8bc-4785-bf2a-a523167fc0c1"
+                      LastKnownName="Vertex"
+                      LastKnownLocation="Package_2258.uml" />
+                  </actuals>
+                  <formal>
+                    <classifierTemplateParameterMoniker
+                      Id="e1643864-3660-4873-98d3-71b85145c210"
+                      LastKnownLocation="Package11_2258.uml" />
+                  </formal>
+                </templateParameterSubstitution>
+              </templateBindingHasTemplateParameterSubstitution>
+            </relationshipOwnedElementsInternal>
+          </templateBinding>
+        </signatures>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4b4770d7-6876-412e-a4de-e11bc1b25575"
+        name="UndirectedEdge"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="ae9de308-767d-49d2-91d2-38d0c85a801b"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FАлекс%2FDesktop%2FGraphMaker(test)%2Fpackages%2FQuickGraph.3.6.61119.7%2Flib%2Fnet4%2FQuickGraph.dll&quot; Namespace%3DQuickGraph Type%3D(Name%3DUndirectedEdge GenericParameterCount%3D1)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="03c4e893-adc6-45f8-b5d9-f138e48b5de6"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="52d7b7f9-5a45-4cf5-8438-3310a6197153">
+                <propertyInstance
+                  Id="5f5b73a6-f3e1-4488-a77c-4b67e9375281"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c82739c8-3d1f-4ac0-991a-07bba470895c">
+                <propertyInstance
+                  Id="f84da3cb-2c1b-463a-9476-37d64405301d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d35a64c4-0fb2-4c51-8d36-59c6f774cd87">
+                <propertyInstance
+                  Id="79813474-d5ad-434f-8cf2-273a141ddb40"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a8f92662-6123-4b30-b3e1-ec7d7b790fde">
+                <propertyInstance
+                  Id="76ef8aba-87b3-4240-b713-3792add57a56"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="66911ce6-1615-43ee-9ff3-d1fb44563cf9">
+                <propertyInstance
+                  Id="3662aa93-fc7a-46d5-bb46-28d3aec815ed"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedRedefinableTemplateSignatureInternal>
+          <redefinableTemplateSignature
+            Id="cf301f74-9d25-40f7-9596-d1260e67d1dd"
+            parameters=""
+            name="RedefinableTemplateSignature1"
+            isLeaf="false">
+            <ownedParameters>
+              <classifierTemplateParameter
+                Id="e1643864-3660-4873-98d3-71b85145c210">
+                <referencesInternal>
+                  <reference
+                    Id="f1df28e9-29a6-49ae-bedf-c6569a42fe42"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FАлекс%2FDesktop%2FGraphMaker(test)%2Fpackages%2FQuickGraph.3.6.61119.7%2Flib%2Fnet4%2FQuickGraph.dll&quot; Namespace%3DQuickGraph Type%3D(Name%3DUndirectedEdge GenericParameterCount%3D1) ParameterIdentifier%3D0"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="9ed7c0ac-1248-4e14-9bcf-180fc112e672"
+                    name="TVertex"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+            </ownedParameters>
+          </redefinableTemplateSignature>
+        </ownedRedefinableTemplateSignatureInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="1f0b07b8-2222-4d41-91ca-dffaa4aaf169"
+        name="UndirectedEdge&lt;GraphVertex‎&gt;"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="cac47e43-134c-4c3d-a7ec-06de720de1be"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6e7237ab-3b35-4c27-a7b3-dc7b4d4647f4">
+                <propertyInstance
+                  Id="66f79759-2e2a-4e53-a464-cf0f14e9c454"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="38cd37c2-889c-4e4a-b813-0414e01704c6">
+                <propertyInstance
+                  Id="f2336e18-6221-4117-b303-d982ff555f08"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="192e2f29-5518-4dad-86cb-7ed79726f8cb">
+                <propertyInstance
+                  Id="1a5e12a9-fb54-40c0-bb2e-915d933bf5dd"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7f03c009-a561-421e-abbd-1ada5b54e012">
+                <propertyInstance
+                  Id="71ed8e33-4cf3-4cc0-94fd-5bf81036ec60"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="979d229c-20f2-43ca-8416-2f4916f79b64">
+                <propertyInstance
+                  Id="4da288a5-1392-4314-ba9e-ac8fae5d0341"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <signatures>
+          <templateBinding
+            Id="bd7632f9-39b2-418e-ba99-ec5bdc6fa059">
+            <redefinableTemplateSignatureMoniker
+              Id="cf301f74-9d25-40f7-9596-d1260e67d1dd"
+              LastKnownLocation="Package11_2258.uml" />
+            <relationshipOwnedElementsInternal>
+              <templateBindingHasTemplateParameterSubstitution>
+                <templateParameterSubstitution
+                  Id="fe14dea6-4a9e-454b-a7a4-d551931cb59a">
+                  <actuals>
+                    <classMoniker
+                      Id="5e5283ac-d710-4c5f-b42c-d095c08e19ca"
+                      LastKnownName="GraphVertex"
+                      LastKnownLocation="Package_2258.uml" />
+                  </actuals>
+                  <formal>
+                    <classifierTemplateParameterMoniker
+                      Id="e1643864-3660-4873-98d3-71b85145c210"
+                      LastKnownLocation="Package11_2258.uml" />
+                  </formal>
+                </templateParameterSubstitution>
+              </templateBindingHasTemplateParameterSubstitution>
+            </relationshipOwnedElementsInternal>
+          </templateBinding>
+        </signatures>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="851c3a6b-f164-4ada-9f3b-645ac32b6643"
+        name="Edge&lt;GraphVertex‎&gt;"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9df43d02-e3a9-4eb8-9ff7-f20de2910008"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8e22ea35-fd02-4978-b282-c8b0b42daa41">
+                <propertyInstance
+                  Id="6f60aed0-44b6-43c4-ab04-020bca7ffdb8"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b320c7a4-2c79-4df7-939f-dc656a68c2b5">
+                <propertyInstance
+                  Id="bc28cbde-1859-4246-8db7-ab528d8a57e9"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2823404d-0a66-4cb8-99c6-94e053c18a2e">
+                <propertyInstance
+                  Id="bd5e2d42-f85a-4cc7-95cf-60dfd8a9d3fd"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1906ca9f-58c1-4364-a653-0c6e430180e5">
+                <propertyInstance
+                  Id="d9665c65-b217-4f08-88a1-1ca9bd14d02f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="42d2c2cb-33ae-41d8-8dfc-a775a3580a72">
+                <propertyInstance
+                  Id="46b5137b-e92a-4ec9-ade3-5cfa5dc568c7"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <signatures>
+          <templateBinding
+            Id="af6fb242-bfd3-4904-b626-2bdf4fabbbc8">
+            <redefinableTemplateSignatureMoniker
+              Id="15f8b2e4-1ead-4fde-ac78-661d3494dda0"
+              LastKnownLocation="Package11_2258.uml" />
+            <relationshipOwnedElementsInternal>
+              <templateBindingHasTemplateParameterSubstitution>
+                <templateParameterSubstitution
+                  Id="f174f21b-1ced-4395-97a7-56d3ad22d40a">
+                  <actuals>
+                    <classMoniker
+                      Id="5e5283ac-d710-4c5f-b42c-d095c08e19ca"
+                      LastKnownName="GraphVertex"
+                      LastKnownLocation="Package_2258.uml" />
+                  </actuals>
+                  <formal>
+                    <classifierTemplateParameterMoniker
+                      Id="94af602a-dbf1-405e-b74e-dc977a9b487f"
+                      LastKnownLocation="Package11_2258.uml" />
+                  </formal>
+                </templateParameterSubstitution>
+              </templateBindingHasTemplateParameterSubstitution>
+            </relationshipOwnedElementsInternal>
+          </templateBinding>
+        </signatures>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="639bd71d-c9e2-4c0e-948d-2879d4251673"
+        name="Edge"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="884c42d9-b373-4924-b099-512b4c296378"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FАлекс%2FDesktop%2FGraphMaker(test)%2Fpackages%2FQuickGraph.3.6.61119.7%2Flib%2Fnet4%2FQuickGraph.dll&quot; Namespace%3DQuickGraph Type%3D(Name%3DEdge GenericParameterCount%3D1)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="bb7978e9-7457-40f2-92d1-c050cc35e950"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5b15020a-041a-46cc-adc7-cda00c928684">
+                <propertyInstance
+                  Id="1702d7ff-b216-405d-9989-73459074668b"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3af4ecdc-bc24-4802-baea-bd0eb0765daf">
+                <propertyInstance
+                  Id="66c468dd-8fad-42ac-a9a5-c1bdd9da476c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e5c047ae-0092-476f-98b9-f296b4ede125">
+                <propertyInstance
+                  Id="ec2b6494-c220-4ba7-87ed-3326d369f3bf"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7a33b071-b70c-401b-b2d5-e8a8de2453c2">
+                <propertyInstance
+                  Id="e2e88154-3cfe-48cf-a862-14eab7a25181"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="91a3149a-aaf4-4deb-ab9e-0b277e4300e4">
+                <propertyInstance
+                  Id="6d8986bc-ea11-43b2-a74f-6ae6ce351d7f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedRedefinableTemplateSignatureInternal>
+          <redefinableTemplateSignature
+            Id="15f8b2e4-1ead-4fde-ac78-661d3494dda0"
+            parameters=""
+            name="RedefinableTemplateSignature1"
+            isLeaf="false">
+            <ownedParameters>
+              <classifierTemplateParameter
+                Id="94af602a-dbf1-405e-b74e-dc977a9b487f">
+                <referencesInternal>
+                  <reference
+                    Id="7bb399bd-8622-4755-afd2-f2c740fabbde"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FАлекс%2FDesktop%2FGraphMaker(test)%2Fpackages%2FQuickGraph.3.6.61119.7%2Flib%2Fnet4%2FQuickGraph.dll&quot; Namespace%3DQuickGraph Type%3D(Name%3DEdge GenericParameterCount%3D1) ParameterIdentifier%3D0"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="60d0c0bb-d670-4ee1-910a-83f534efacb0"
+                    name="TVertex"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+            </ownedParameters>
+          </redefinableTemplateSignature>
+        </ownedRedefinableTemplateSignatureInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

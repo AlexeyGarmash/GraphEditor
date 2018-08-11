@@ -1,0 +1,13 @@
+﻿<Window x:Class="GraphMaker_test_.Info"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Info" Height="213" Width="300" Icon="Icons/Blackvariant-Button-Ui-Requests-2-BambooDock.ico" ResizeMode="CanMinimize">
+    <Grid Margin="0,0,0,86">
+        <Canvas x:Name="Canv" HorizontalAlignment="Left" Height="184" VerticalAlignment="Top" Width="292" Background="#FFDEDEDE">
+            <Label Content="Graph Maker" Canvas.Left="66" Canvas.Top="24" FontFamily="Snap ITC" Height="34" Width="166" FontSize="20"/>
+            <Label Content="by Alexey Garmash @sp15-1" Canvas.Left="70" Canvas.Top="78"/>
+            <Label Content="2017" Canvas.Left="122" Canvas.Top="132"/>
+        </Canvas>
+
+    </Grid>
+</Window>

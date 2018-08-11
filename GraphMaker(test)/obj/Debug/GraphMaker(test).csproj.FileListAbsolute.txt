@@ -1,0 +1,120 @@
+c:\users\night knight\documents\visual studio 2013\Projects\GraphMaker(test)\GraphMaker(test)\bin\Debug\GraphMaker(test).exe.config
+C:\Users\Night Knight\documents\visual studio 2013\Projects\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test).csprojResolveAssemblyReference.cache
+C:\Users\Night Knight\documents\visual studio 2013\Projects\GraphMaker(test)\GraphMaker(test)\obj\Debug\App.g.cs
+C:\Users\Night Knight\documents\visual studio 2013\Projects\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test)_MarkupCompile.cache
+C:\Users\Night Knight\documents\visual studio 2013\Projects\GraphMaker(test)\GraphMaker(test)\obj\Debug\MainWindow.baml
+C:\Users\Night Knight\documents\visual studio 2013\Projects\GraphMaker(test)\GraphMaker(test)\obj\Debug\MainWindow.g.cs
+C:\Users\Night Knight\documents\visual studio 2013\Projects\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test).g.resources
+C:\Users\Night Knight\documents\visual studio 2013\Projects\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker_test_.Properties.Resources.resources
+C:\Users\Night Knight\documents\visual studio 2013\Projects\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test).csproj.GenerateResource.Cache
+C:\Users\Night Knight\documents\visual studio 2013\Projects\GraphMaker(test)\GraphMaker(test)\bin\Debug\GraphMaker(test).exe
+C:\Users\Night Knight\documents\visual studio 2013\Projects\GraphMaker(test)\GraphMaker(test)\bin\Debug\GraphMaker(test).pdb
+C:\Users\Night Knight\documents\visual studio 2013\Projects\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test).exe
+C:\Users\Night Knight\documents\visual studio 2013\Projects\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test).pdb
+C:\Users\Night Knight\documents\visual studio 2013\Projects\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test)_Content.g.cs
+C:\Users\Night Knight\documents\visual studio 2013\Projects\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.Data.dll
+C:\Users\Night Knight\documents\visual studio 2013\Projects\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.dll
+C:\Users\Night Knight\documents\visual studio 2013\Projects\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.Graphviz.dll
+C:\Users\Night Knight\documents\visual studio 2013\Projects\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.Serialization.dll
+C:\Users\Night Knight\documents\visual studio 2013\Projects\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.xml
+C:\Users\Night Knight\documents\visual studio 2013\Projects\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.Data.xml
+C:\Users\Night Knight\documents\visual studio 2013\Projects\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.Graphviz.xml
+C:\Users\Night Knight\documents\visual studio 2013\Projects\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.Serialization.xml
+C:\Users\Night Knight\documents\visual studio 2013\Projects\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test)_MarkupCompile.lref
+C:\Users\Night Knight\documents\visual studio 2013\Projects\GraphMaker(test)\GraphMaker(test)\obj\Debug\HelpWindow.baml
+C:\Users\Night Knight\documents\visual studio 2013\Projects\GraphMaker(test)\GraphMaker(test)\obj\Debug\HelpWindow.g.cs
+C:\Users\Night Knight\documents\visual studio 2013\Projects\GraphMaker(test)\GraphMaker(test)\obj\Debug\Info.baml
+C:\Users\Night Knight\documents\visual studio 2013\Projects\GraphMaker(test)\GraphMaker(test)\obj\Debug\Info.g.cs
+C:\Users\zao.CCD\Desktop\GraphMaker(test)\GraphMaker(test)\bin\Debug\GraphMaker(test).exe.config
+C:\Users\zao.CCD\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test).exe
+C:\Users\zao.CCD\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test).pdb
+C:\Users\zao.CCD\Desktop\GraphMaker(test)\GraphMaker(test)\bin\Debug\GraphMaker(test).exe
+C:\Users\zao.CCD\Desktop\GraphMaker(test)\GraphMaker(test)\bin\Debug\GraphMaker(test).pdb
+C:\Users\zao.CCD\Desktop\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.Data.dll
+C:\Users\zao.CCD\Desktop\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.dll
+C:\Users\zao.CCD\Desktop\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.Graphviz.dll
+C:\Users\zao.CCD\Desktop\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.Serialization.dll
+C:\Users\zao.CCD\Desktop\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.xml
+C:\Users\zao.CCD\Desktop\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.Data.xml
+C:\Users\zao.CCD\Desktop\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.Graphviz.xml
+C:\Users\zao.CCD\Desktop\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.Serialization.xml
+C:\Users\zao.CCD\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test).csprojResolveAssemblyReference.cache
+C:\Users\zao.CCD\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\HelpWindow.baml
+C:\Users\zao.CCD\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\Info.baml
+C:\Users\zao.CCD\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\HelpWindow.g.cs
+C:\Users\zao.CCD\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\Info.g.cs
+C:\Users\zao.CCD\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\MainWindow.g.cs
+C:\Users\zao.CCD\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\App.g.cs
+C:\Users\zao.CCD\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test)_Content.g.cs
+C:\Users\zao.CCD\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test)_MarkupCompile.cache
+C:\Users\zao.CCD\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test)_MarkupCompile.lref
+C:\Users\zao.CCD\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\MainWindow.baml
+C:\Users\zao.CCD\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test).g.resources
+C:\Users\zao.CCD\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker_test_.Properties.Resources.resources
+C:\Users\zao.CCD\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test).csproj.GenerateResource.Cache
+H:\GraphMaker(test)\GraphMaker(test)\bin\Debug\GraphMaker(test).exe.config
+H:\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test).exe
+H:\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test).pdb
+H:\GraphMaker(test)\GraphMaker(test)\bin\Debug\GraphMaker(test).exe
+H:\GraphMaker(test)\GraphMaker(test)\bin\Debug\GraphMaker(test).pdb
+H:\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.Data.dll
+H:\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.dll
+H:\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.Graphviz.dll
+H:\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.Serialization.dll
+H:\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.xml
+H:\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.Data.xml
+H:\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.Graphviz.xml
+H:\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.Serialization.xml
+H:\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test).csprojResolveAssemblyReference.cache
+H:\GraphMaker(test)\GraphMaker(test)\obj\Debug\HelpWindow.baml
+H:\GraphMaker(test)\GraphMaker(test)\obj\Debug\Info.baml
+H:\GraphMaker(test)\GraphMaker(test)\obj\Debug\HelpWindow.g.cs
+H:\GraphMaker(test)\GraphMaker(test)\obj\Debug\Info.g.cs
+H:\GraphMaker(test)\GraphMaker(test)\obj\Debug\MainWindow.g.cs
+H:\GraphMaker(test)\GraphMaker(test)\obj\Debug\App.g.cs
+H:\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test)_Content.g.cs
+H:\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test)_MarkupCompile.cache
+H:\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test)_MarkupCompile.lref
+H:\GraphMaker(test)\GraphMaker(test)\obj\Debug\MainWindow.baml
+H:\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test).g.resources
+H:\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker_test_.Properties.Resources.resources
+H:\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test).csproj.GenerateResource.Cache
+E:\GraphMaker(test)\GraphMaker(test)\bin\Debug\GraphMaker(test).exe.config
+E:\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test).exe
+E:\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test).pdb
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\bin\Debug\GraphMaker(test).exe.config
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test).exe
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test).pdb
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\bin\Debug\GraphMaker(test).exe
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\bin\Debug\GraphMaker(test).pdb
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.Data.dll
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.dll
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.Graphviz.dll
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.Serialization.dll
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.xml
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.Data.xml
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.Graphviz.xml
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\bin\Debug\QuickGraph.Serialization.xml
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test).csprojResolveAssemblyReference.cache
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\HelpWindow.baml
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\Info.baml
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\HelpWindow.g.cs
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\Info.g.cs
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\MainWindow.g.cs
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\App.g.cs
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test)_Content.g.cs
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test)_MarkupCompile.cache
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test)_MarkupCompile.lref
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\MainWindow.baml
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test).g.resources
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker_test_.Properties.Resources.resources
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test).csproj.GenerateResource.Cache
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\Алекс\Desktop\GraphMaker(test)\GraphMaker(test)\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\рабочий стол 19 05 2017\GraphMaker(test)\GraphMaker(test)\bin\Debug\GraphMaker(test).exe.config
+D:\рабочий стол 19 05 2017\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test).exe
+D:\рабочий стол 19 05 2017\GraphMaker(test)\GraphMaker(test)\obj\Debug\GraphMaker(test).pdb
